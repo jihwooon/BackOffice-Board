@@ -1,5 +1,8 @@
 # ADMIN-Board
 
+[![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/core-java/wiki)
+[![Version](https://img.shields.io/badge/version-2022.06.03-red.svg)](./CHANGELOG)
+
 # 목차
 - [개발 환경](#개발-환경)
 - [사용 기술](#사용-기술)
