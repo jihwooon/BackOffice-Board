@@ -1,18 +1,53 @@
-# ADMIN-subject
+# ADMIN-Board
 
-## 요구사항 정리
-* 관리자 페이지의 FAQ를 전체 조회, 등록, 삭제 가능한 API
-* 각 카테고리 이름으로 검색 API
-* 페이징 처리
+# 목차
+- [개발 환경](#개발-환경)
+- [사용 기술](#사용-기술)
+    * [백엔드](#백엔드)
+    * [기타 주요 라이브러리](#주요-라이브러리)
+- [요구 사항](#요구사항)
+## 개발 환경
+- IntelliJ
+- Postman
+- GitHub
+- DataGrip
 
-## 기술 스택
-* Java 11
-* SpringBoot
-* JPA
-* QueryDSL
+## 사용 기술
+### 백엔드
+#### 주요 프레임워크 / 라이브러리
+- Java 11 openjdk
+- SpringBoot 2.6.7
+- SpringBoot Security
+- Spring Data JPA
+- QueryDSL
+
+#### Build tool
+- Gradle
+
+#### Database
+- MariaDB
+
+### 주요 라이브러리
+- Lombok
+- Mockito
+- Restdoc
+- AssertJ
+- Restdoc
+- p6spy
 
 
-### 목표 (Goals)
+## 요구사항
+* 관리자 페이지 CRUD API 설계
+* 카테고리 이름 검색 색인 기능 구현
+* QueryDsl 페이징 기능 구현
+* Clean 아키텍처
+
+
+## E-R 다이어그램
+
+
+
+### 프로젝트 목적
 공통화 된 질문은 FAQ 카테고리 게시판에 관리자가 등록 할 수 있습니다.  
  
 
