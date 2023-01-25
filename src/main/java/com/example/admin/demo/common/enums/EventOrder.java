@@ -4,7 +4,8 @@ import com.querydsl.core.types.OrderSpecifier;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import static com.example.admin.demo.event.QEvent.event;
+import static com.example.admin.demo.event.domain.QEvent.event;
+
 
 @Getter
 @AllArgsConstructor

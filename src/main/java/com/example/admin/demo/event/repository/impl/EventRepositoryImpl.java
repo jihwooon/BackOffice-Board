@@ -18,7 +18,8 @@ import org.springframework.util.ObjectUtils;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.example.admin.demo.event.QEvent.event;
+import static com.example.admin.demo.event.domain.QEvent.event;
+
 
 @Repository
 public class EventRepositoryImpl extends QuerydslRepositorySupport implements EventRepositoryCustom {
