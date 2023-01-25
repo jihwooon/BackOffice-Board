@@ -2,19 +2,20 @@ server:
   port: 8086
 
 spring:
-  datasource:
-    url: jdbc:mariadb://localhost:2206/admin
-    username: root
-    password: 1234
+    datasource:
+      url: ${url:jdbc:mariadb://localhost:3308/admin}
+      username: root
+      password: root1234
+      driver-class-name: org.mariadb.jdbc.Driver
 
-  jpa:
-    hibernate:
-      ddl-auto: validate
-    properties:
+    jpa:
       hibernate:
-        show_sql: true
-        format_sql: true
-        default_batch_fetch_size: 1000
+        ddl-auto: create
+      properties:
+        hibernate:
+          show_sql: true
+          format_sql: true
+          default_batch_fetch_size: 1000
 
 logging:
   level:
