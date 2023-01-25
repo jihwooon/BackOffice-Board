@@ -47,6 +47,8 @@
 
 
 ## E-R 다이어그램
+![diagram](https://user-images.githubusercontent.com/68071599/214483854-0314334b-1286-435a-bd2b-0af71f8f07d8.png)
+
 
 
 
