@@ -22,7 +22,7 @@
 - SpringBoot 2.6.7
 - SpringBoot Security
 - Spring Data JPA
-- QueryDSL
+- QueryDSL 5.0
 
 #### Build tool
 - Gradle
