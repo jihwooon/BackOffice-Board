@@ -16,7 +16,8 @@ import org.springframework.util.ObjectUtils;
 
 import java.util.List;
 
-import static com.example.admin.demo.faqCategory.domain.notice.QNotice.notice;
+import static com.example.admin.demo.notice.domain.QNotice.notice;
+
 
 @Repository
 public class NoticeRepositoryImpl extends QuerydslRepositorySupport implements NoticeRepositoryCustom {

@@ -16,7 +16,8 @@ import org.springframework.util.ObjectUtils;
 
 import java.util.List;
 
-import static com.example.admin.demo.faqCategory.domain.faqCategory.QFaqCategory.faqCategory;
+import static com.example.admin.demo.faqCategory.domain.QFaqCategory.faqCategory;
+
 
 @Repository
 public class FaqCategoryRepositoryImpl extends QuerydslRepositorySupport implements FaqCategoryRepositoryCustom {

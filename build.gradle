@@ -1,14 +1,8 @@
-//querydsl 추가
-buildscript {
-    dependencies {
-        classpath("gradle.plugin.com.ewerk.gradle.plugins:querydsl-plugin:1.0.10")
-    }
-}
-
 plugins {
     id 'org.springframework.boot' version '2.6.7'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
 }
 
 group = 'com.example.admin'
@@ -69,14 +63,14 @@ dependencies {
     }
 
     //querydsl 추가
-    implementation 'com.querydsl:querydsl-jpa'
+    implementation 'com.querydsl:querydsl-jpa:5.0.0'
     //querydsl 추가
-    implementation 'com.querydsl:querydsl-apt'
+    implementation 'com.querydsl:querydsl-apt:5.0.0'
 }
 
 //querydsl 추가
-def querydslDir = 'src/main/generated'
-//def querydslDir = "$buildDir/generated/querydsl"
+//def querydslDir = 'src/main/generated'
+def querydslDir = "$buildDir/generated/querydsl"
 
 querydsl {
     library = "com.querydsl:querydsl-apt"
