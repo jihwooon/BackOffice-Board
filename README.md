@@ -17,17 +17,12 @@
 
 ## 사용 기술
 ### 백엔드
-#### 주요 프레임워크 / 라이브러리
 - Java 11 openjdk
 - SpringBoot 2.6.7
 - SpringBoot Security
 - Spring Data JPA
 - QueryDSL 5.0
-
-#### Build tool
 - Gradle
-
-#### Database
 - MariaDB
 
 ### 주요 라이브러리
@@ -39,7 +34,6 @@
 - p6spy
 
 ### 프론트
-#### 주요 프레임워크 / 라이브러리
 - TypeScript
 - React 18
 
