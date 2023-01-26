@@ -1,5 +1,4 @@
-# ADMIN-Board
-
+# 백오피스 개발 프로젝트  
 [![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/core-java/wiki)
 [![Version](https://img.shields.io/badge/version-2022.06.03-red.svg)](./CHANGELOG)
 
@@ -38,6 +37,10 @@
 - Restdoc
 - p6spy
 
+### 프론트
+#### 주요 프레임워크 / 라이브러리
+- TypeScript
+- React 18
 
 ## 요구사항
 * 관리자 페이지 CRUD API 설계
