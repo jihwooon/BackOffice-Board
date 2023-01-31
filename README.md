@@ -1,5 +1,5 @@
 # 백오피스 개발 프로젝트  
-[![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/core-java/wiki)
+[![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/BackOffice-Board/wiki)
 [![Version](https://img.shields.io/badge/version-2022.06.03-red.svg)](./CHANGELOG)
 
 # 목차
