@@ -66,8 +66,10 @@
 
 ### 헥사고날 아키텍처로 리아키텍처링
 
-최근 [만들면서 배우는 클린 아키텍처 책 스터디](https://codesoom.github.io/wiki/get-your-hands-dirty-on-clean-architecture/) 스터디를 진행했었습니다.
+최근 [만들면서 배우는 클린 아키텍처 책 스터디](https://codesoom.github.io/wiki/get-your-hands-dirty-on-clean-architecture/) 스터디를 진행했었습니다.  
+
 <img src="https://user-images.githubusercontent.com/68071599/215652157-f9525306-388a-449f-ac60-6bdbef729963.png" width="50%" height="50%"/>  
+
 [출처: [헥사고날(Hexagonal) 아키텍처 in 메쉬코리아](https://mesh.dev/20210910-dev-notes-007-hexagonal-architecture/)]
 
 ### 테스트 코드를 세분화하기
