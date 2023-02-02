@@ -62,7 +62,7 @@
 ### 패키징 구조 예시
 <img src="https://user-images.githubusercontent.com/68071599/215277127-ee460bbd-5412-40b8-9157-253da2c4b1a7.jpg" width="30%" height="30%"/>  
 
-## 기능 구현
+## 추후에 해볼 만 한 것
 
 ### 헥사고날 아키텍처로 리아키텍처링
 
@@ -79,7 +79,7 @@
 
 [출처: [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)]
 
-### osiv 의 잘못된 활용
+### OSIV의 활용하기
 현재 로직은 osiv를 잘못된 활용 예제 중 하나입니다. 이를 잘 활용하기 위해서 osiv를 어떻게 사용해야 하고 맞는 로직으로 수정해야 하는 작업이 필요합니다.
 
 ## 프로젝트를 통해 느낀점
